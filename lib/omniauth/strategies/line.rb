@@ -11,7 +11,7 @@ module OmniAuth
         authorize_url: '/oauth2/v2.1/authorize',
         token_url: '/oauth2/v2.1/token'
       }
-      option :authorize_options, [:bot_prompt, :prompt, :scope]
+      option :authorize_options, [:bot_prompt, :scope]
 
       # host changed
       def callback_phase
